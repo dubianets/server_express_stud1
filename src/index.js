@@ -7,7 +7,7 @@ import routes from './modules/core/routes';
 import dbConnect from './modules/core/db';
 
 const app = express();
-const PORT = 5000; //'https://git.heroku.com/salty-wildwood-20393.git';
+const PORT = 'https://salty-wildwood-20393.herokuapp.com/';
 
 //localhost: 5000/
 
