@@ -13,8 +13,10 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.1",
+    "caniuse-lite": "^1.0.30001317",
     "express": "^4.17.2",
     "lodash": "^4.17.21",
+    "mongoose": "^6.2.7",
     "morgan": "^1.10.0"
   },
   "devDependencies": {

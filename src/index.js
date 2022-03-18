@@ -4,12 +4,14 @@ import logger from './modules/core/logger';
 import parseResponse from './modules/core/parseResponse';
 import cors from './modules/core/corse';
 import routes from './modules/core/routes';
+import dbConnect from './modules/core/db';
 
 const app = express();
-const PORT = 5000;
+const PORT = 5000; //'https://git.heroku.com/salty-wildwood-20393.git';
 
 //localhost: 5000/
 
+dbConnect();
 logger(app);
 parseResponse(app);
 cors(app);
